@@ -16,3 +16,20 @@ La base de datos se ha diseñado siguiendo un modelo Entidad-Relación y se ha i
 
 ##  Consultas de ejemplo
 Se ha implementado una consulta específica para mostrar los servicios premium (aquellos con un precio superior a 30€), asegurando una rápida visualización de los tratamientos más rentables del salón.
+# Proyecto Icon Nails - Gestión de Centro de Estética
+
+Este proyecto consiste en una aplicación para gestionar un salón de manicura, permitiendo el control de clientes, citas y servicios.
+
+## Tecnologías utilizadas
+* **Base de Datos:** MySQL
+* **Lenguaje:** Java 
+* **Gestión de versiones:** Git y GitHub
+
+## Estructura del repositorio
+* `/diagrams`: Contiene los esquemas de la base de datos y clases.
+* `README.md`: Descripción del proyecto.
+
+## Funcionalidades
+* Registro y gestión de clientes.
+* Listado de servicios y productos de manicura.
+* Control de pedidos y citas.
