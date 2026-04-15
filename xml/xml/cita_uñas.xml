@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cita>
+    <id_cita>2026-A-01</id_cita>
+    <fecha>2026-04-15</fecha>
+    <cliente>
+        <nombre>Lucia Garcia</nombre>
+        <telefono>600123456</telefono>
+    </cliente>
+    <servicios>
+        <servicio categoria="manicura">
+            <descripcion>Manicura semipermanente</descripcion>
+            <precio>25.00</precio>
+        </servicio>
+        <servicio categoria="decoracion">
+            <descripcion>Nail Art</descripcion>
+            <precio>5.50</precio>
+        </servicio>
+    </servicios>
+    <total moneda="EUR">30.50</total>
+</cita>
