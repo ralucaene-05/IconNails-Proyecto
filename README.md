@@ -33,3 +33,24 @@ Este proyecto consiste en una aplicación para gestionar un salón de manicura, 
 * Registro y gestión de clientes.
 * Listado de servicios y productos de manicura.
 * Control de pedidos y citas.
+  ## SECCIÓN: PROGRAMACIÓN (Java + JDBC)
+
+## 1. Qué hace la aplicación
+Esta aplicación permite gestionar de forma integral un salón de manicura. Facilita el registro de citas, la gestión de clientes y servicios, asegurando que los datos se almacenen de forma persistente y se validen correctamente.
+
+## 2. Cómo se ejecuta
+1.  **Base de Datos**: Importa el archivo `icon_nails.sql` en tu gestor de bases de datos (MySQL).
+2.  **Configuración**: Abre el proyecto en tu IDE (IntelliJ/Eclipse) y asegúrate de añadir el conector JDBC (`mysql-connector-java.jar`) a las librerías.
+3.  **Conexión**: Ajusta el usuario y contraseña en la clase `ConexionBD.java`.
+4.  **Ejecución**: Ejecuta la clase principal `Main.java`.
+
+## 3. Funcionalidades
+* **Gestión de Citas (CRUD)**: Creación, lectura, actualización y borrado de citas en la base de datos.
+* **Validación XML/XSD**: La aplicación genera archivos XML de las citas y los valida mediante el esquema `esquema.xsd` incluido.
+* **Persistencia**: Uso de JDBC para mantener los datos guardados de forma segura.
+
+## 4. Uso de la Base de Datos
+La aplicación utiliza JDBC para conectar con la base de datos `ICON NAILS`. Se encarga de:
+* Insertar nuevas citas y clientes.
+* Consultar la disponibilidad de servicios.
+* Mantener la integridad referencial de los datos.
