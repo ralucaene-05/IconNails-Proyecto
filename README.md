@@ -1,4 +1,5 @@
-#  Proyecto Base de Datos: ICON NAILS
+#  Proyecto: ICON NAILS
+BASE DE DATOS
 
 Este repositorio contiene el diseño e implementación de la base de datos para el salón de manicura **ICON NAILS**. El objetivo es gestionar los servicios de uñas, las clientas y las citas del centro de forma organizada.
 
