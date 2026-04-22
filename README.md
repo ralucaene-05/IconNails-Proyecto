@@ -55,3 +55,6 @@ La aplicación utiliza JDBC para conectar con la base de datos `ICON NAILS`. Se 
 * Insertar nuevas citas y clientes.
 * Consultar la disponibilidad de servicios.
 * Mantener la integridad referencial de los datos.
+
+Demonstración
+Interfaz de gestión de citas funcionando correctamente y conectada a la base de datos.
